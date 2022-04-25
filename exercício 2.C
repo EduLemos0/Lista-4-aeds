@@ -5,7 +5,7 @@ int sum(int num){
  int r = num%10; //resto
 
   if(num > 10){
-    return (r+ sum(q));
+    return (r+ sum(q)); //soma ao resto.
   }else{
     return num;
   }
